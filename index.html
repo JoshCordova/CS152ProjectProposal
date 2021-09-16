@@ -7,11 +7,12 @@
     <div>users will upload a song, and the features will be looked up using the Spotify (formerly Echo Nest) API.</div>
     <br />
     <div>If the clusters are distinct enough, and seem to represent established genres, labels can be added post-clustering to better inform the user about the specific genre of music.</div>
+    <div>If the clusters are not distinct after enough hyperparameter tuning, we can use soft/fuzzy classification to try to come up with a recommender system, and compare it to Spotify's recommendations.</div>
     <br /><strong><em>Specific goals:&nbsp;</em></strong></div>
     <div>&nbsp;</div>
     <ul>
     <li>Run cluster analysis on the dataset</li>
-    <li>Tune hyperparameters to get distinct clusters</li>
+    <li>Tune hyperparameters (distance metric will likely be the main focus) to get distinct clusters</li>
     <li>Verify that these clusters represent genres</li>
     <li>Add genre tags and train a classification model</li>
     </ul>
